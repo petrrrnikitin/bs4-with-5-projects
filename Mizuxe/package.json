@@ -1,0 +1,25 @@
+{
+  "name": "mizuxe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:bs": "node-sass sass/bootstrap.scss css/bootstrap.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrrrnikitin/bs4-with-5-projects.git"
+  },
+  "author": "Petr Nikitin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petrrrnikitin/bs4-with-5-projects/issues"
+  },
+  "homepage": "https://github.com/petrrrnikitin/bs4-with-5-projects#readme",
+  "devDependencies": {
+    "bootstrap": "^4.5.0",
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {}
+}
